@@ -1,0 +1,12 @@
+{
+	"name": "appdb_linked_service",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=appserver23123.database.windows.net;initial catalog=dataserver;user id=sqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEFDMEZBMDJBLTYwODMtNDVBMS1CODIyLTUyNUQ3NzA0MEI3M19jZDkwYmVmMi0zMjFlLTQxMDQtODIxNC05NjMwY2I2ZDQ0MWUiDQp9"
+		}
+	}
+}

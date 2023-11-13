@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_bvq",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dataworkspace23123_pooldb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Log"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
